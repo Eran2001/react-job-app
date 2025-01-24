@@ -4,3 +4,15 @@ body {
   background: grey;
   font-family: 'Roboto', sans-serif;
 }
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-div > h1 {
+  color: #000;
+  font-size: 2rem;
+}

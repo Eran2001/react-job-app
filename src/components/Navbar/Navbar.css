@@ -4,6 +4,11 @@ nav {
   align-items: center;
   padding: 1rem;
   background-color: #333;
+  z-index: 10;
+  position: fixed;
+  /* overflow: hidden; */
+  top: 0;
+  width: 100%;
 }
 
 nav h1 {
